@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .navbar-nav  li a:hover
+    {
+        color: #1abc9c !important;
+    }
+    .navbar-brand
+    {
+      font-size: 25px;
+
+    }
+    .navbar_navbar-default
+    {
+      height:100px;
+    }
+
+    .bg-1
+    {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+
+  .container-fluid
+  {
+     padding-top: 70px;
+     padding-bottom: 70px;
+
+ }
+.bg-2
+{
+  background-image: url('c1.jpg');
+  background-size: 100% 100%;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.bg-3
+{
+  background: rgba(0, 0, 0, .4);
+  margin-top:10px;
+  height:550px
+}
+.bg-4
+{
+    text-align: center;
+    color: white;
+}
+
+.bg-4 h1
+{
+    padding-top: 30px;
+}
+
+#statusbg
+{
+
+}
+  </style>
+
+</head>
+
+
+
+<body>
+<!--Navbar-->
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+      <a class="navbar-brand" href="#">User Name</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Profile Photo-->
+
+<div class="container-fluid bg-2 text-center">
+
+  <div class="bg-3">
+      <img src="u1.jpg" class="img-responsive img-circle " style="display:inline;padding-top:124px" alt="User" width="250" height="250">
+      <h3>|LOCATION|PHONE|</h3>
+  </div>
+
+</div>
+
+<!--User Activity-->
+
+<div class="container-fluid" style="background-color:#F1F1F1">
+  <div class="bg-4">
+      <div style="background: rgba(0, 0, 0, .4);height:100px ">
+             <h1> User Activity</h1>
+      </div>
+
+      <div class="row">
+
+            <div class ="col-sm-2"></div>>
+
+            <div class="col-sm-8" style="padding:20px" >
+
+                  <div style="background-color:#F1F1F1;height:450px "></div>
+
+            </div>
+
+            <div class="col-sm-2"></div>
+
+      </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+      <div class ="col-sm-4">
+        <div class="well">
+            <h4>Title</h4>
+            <form role="form">
+                <div class="form-group">
+                    <textarea class="form-control"></textarea>
+                </div>
+                <h4>Catagory</h4>
+                <div class="form-group">
+
+                  <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Catagory
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Electronics</a></li>
+    <li><a href="#">Animal</a></li>
+    <li><a href="#">Papers</a></li>
+    <li><a href="#">Others</a></li>
+  </ul>
+</div>
+
+
+
+
+
+                </div>
+                <h4>Description</h4>
+                <div class="form-group">
+                    <textarea class="form-control"></textarea>
+                </div>
+                <h4>Contact Info</h4>
+                <div class="form-group">
+                    <textarea class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+
+      </div>
+
+      <div class ="col-sm-4">
+
+        <div class="well">
+            <h4>Description:</h4>
+            <form role="form">
+                <div class="form-group">
+                    <textarea class="form-control"></textarea>
+                </div>
+
+            </form>
+        </div>
+
+
+      </div>
+      <div class ="col-sm-4"></div>
+
+
+</div>
+
+
+
+
+</body>
+
+</html>
